@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#21142b">
+    <meta name="description" content="Conoce a Maylin: su creatividad, sus intereses y su forma de aprender.">
+    <title>Mi hoja de vida | Maylin Samara Muñoz Castaño</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-stars" aria-hidden="true">
+        <span class="falling-star falling-star--one">✧</span>
+        <span class="falling-star falling-star--two">✦</span>
+        <span class="falling-star falling-star--three">✧</span>
+        <span class="falling-star falling-star--four">✦</span>
+        <span class="falling-star falling-star--five">✧</span>
+        <span class="falling-star falling-star--six">✦</span>
+        <span class="falling-star falling-star--seven">✧</span>
+        <span class="falling-star falling-star--eight">✦</span>
+        <span class="falling-star falling-star--nine">✧</span>
+        <span class="falling-star falling-star--ten">✦</span>
+        <span class="falling-star falling-star--eleven">✧</span>
+        <span class="falling-star falling-star--twelve">✦</span>
+    </div>
+    <main class="page-shell">
+        <audio class="background-music" autoplay loop preload="auto" aria-hidden="true">
+            <source src="background.mpeg" type="audio/mpeg">
+        </audio>
+        <audio class="section-sound" preload="auto">
+            <source src="section-change.mpeg" type="audio/mpeg">
+        </audio>
+        <p class="visually-hidden" id="sound-status" aria-live="polite"></p>
+        <p class="visually-hidden" id="music-status" aria-live="polite"></p>
+        <div class="talisman-border" aria-hidden="true">
+            <span class="talisman-edge talisman-edge--left"></span>
+            <span class="talisman-edge talisman-edge--right"></span>
+        </div>
+        <div class="page-explorers" aria-hidden="true">
+            <span class="page-explorer page-explorer--sitting"></span>
+            <span class="page-explorer page-explorer--wandering"></span>
+            <span class="page-explorer page-explorer--peeking"></span>
+        </div>
+        <div class="browser-bar">
+            <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="address-pill" aria-hidden="true"><span>✿</span> Mi hoja de vida</div>
+            <div class="browser-actions">
+                <span class="bar-sparkle" aria-hidden="true">✧</span>
+                <button class="music-toggle" type="button" aria-label="Abrir reproductor de música"
+                    aria-expanded="false" aria-controls="music-popover">
+                    <span aria-hidden="true">♫</span>
+                    <span class="music-label">Música</span>
+                </button>
+                <button class="background-mute" type="button" aria-label="Silenciar música de fondo"
+                    aria-pressed="false" title="Silenciar música de fondo">
+                    <span aria-hidden="true">🔊</span>
+                </button>
+                <div class="music-popover" id="music-popover" hidden>
+                    <p class="music-title">Love Sick — AiNA THE END</p>
+                    <audio class="music-player" controls preload="metadata">
+                        <source src="music.mpeg" type="audio/mpeg">
+                        Tu navegador no puede reproducir este archivo de audio.
+                    </audio>
+                    <button class="music-close" type="button">Cerrar</button>
+                </div>
+            </div>
+        </div>
+
+        <header class="hero">
+            <div class="hero-orbit hero-orbit--one" aria-hidden="true"></div>
+            <div class="hero-orbit hero-orbit--two" aria-hidden="true"></div>
+            <span class="hero-star hero-star--one" aria-hidden="true">✦</span>
+            <span class="hero-star hero-star--two" aria-hidden="true">✧</span>
+            <span class="hero-emblem" aria-hidden="true">◉</span>
+
+            <figure class="hero-character" aria-hidden="true">
+                <img
+                    src="https://universo-nintendo.com.mx/my_uploads/2026/07/Mononoke-Anime-Medicine-Seller-Ken-no-Tsurugi.webp"
+                    alt=""
+                    fetchpriority="high">
+            </figure>
+            <div class="hero-starfall" aria-hidden="true">
+                <span class="hero-falling-star hero-falling-star--one">✧</span>
+                <span class="hero-falling-star hero-falling-star--two">✦</span>
+                <span class="hero-falling-star hero-falling-star--three">✧</span>
+                <span class="hero-falling-star hero-falling-star--four">✦</span>
+                <span class="hero-falling-star hero-falling-star--five">✧</span>
+                <span class="hero-falling-star hero-falling-star--six">✦</span>
+            </div>
+
+            <div class="hero-copy">
+                <p class="eyebrow">UN ESPACIO PARA CONOCERME</p>
+                <h1>Mi hoja de vida</h1>
+                <p class="hero-subtitle">Creatividad, diseño y tecnología</p>
+                <p class="hero-name">MAYLIN SAMARA M. GRADO:11-1 <span>✿</span></p>
+            </div>
+        </header>
+
+        <nav class="tabs" role="tablist" aria-label="Secciones de la hoja de vida">
+            <button class="tab" id="tab-experiencia" type="button" role="tab"
+                aria-selected="true" aria-controls="panel-experiencia" tabindex="0">
+                <span class="tab-icon" aria-hidden="true">◉</span>Experiencia
+            </button>
+            <button class="tab" id="tab-habilidades" type="button" role="tab"
+                aria-selected="false" aria-controls="panel-habilidades" tabindex="-1">
+                <span class="tab-icon" aria-hidden="true">✿</span>Habilidades
+            </button>
+            <button class="tab" id="tab-disciplina" type="button" role="tab"
+                aria-selected="false" aria-controls="panel-disciplina" tabindex="-1">
+                <span class="tab-icon" aria-hidden="true">鳥</span>Disciplina
+            </button>
+        </nav>
+
+        <section class="portfolio-board" aria-label="Información personal">
+            <span class="board-flower board-flower--top" aria-hidden="true">✿</span>
+            <span class="board-flower board-flower--bottom" aria-hidden="true">✿</span>
+
+            <figure class="chibi-sticker chibi-sticker--top-left" aria-hidden="true">
+                <img src="https://i.redd.it/g335pdlh21id1.gif" alt="">
+                <span>✦</span>
+            </figure>
+            <figure class="chibi-sticker chibi-sticker--top-right" aria-hidden="true">
+                <img src="https://i.pinimg.com/originals/28/cf/80/28cf80c3288a39d29f383c009a2b8e15.gif" alt="">
+                <span>✿</span>
+            </figure>
+            <figure class="chibi-sticker chibi-sticker--bottom-left" aria-hidden="true">
+                <img src="https://i.pinimg.com/originals/b5/b7/03/b5b7033866124c8ee6faab1b03d1856b.gif" alt="">
+                <span>✧</span>
+            </figure>
+            <figure class="chibi-sticker chibi-sticker--bottom-right" aria-hidden="true">
+                <img src="https://i.pinimg.com/originals/5d/b7/39/5db7394c2b6708fe6c001faf01c5b664.gif" alt="">
+                <span>✦</span>
+            </figure>
+
+            <div class="tab-panels">
+                <article class="tab-panel" id="panel-experiencia" role="tabpanel"
+                    aria-labelledby="tab-experiencia" tabindex="0">
+                    <p class="section-kicker">01 — MI CAMINO</p>
+                    <h2>Ideas que se vuelven proyectos</h2>
+                    <p class="section-intro">A lo largo de mi etapa escolar y en mis proyectos personales, llevo lo que aprendo a la práctica de forma creativa.</p>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-mark" aria-hidden="true">✦</span>
+                            <div>
+                                <h3>Proyectos editoriales y gráficos</h3>
+                                <p>Uno estética y contenido para organizar ideas en propuestas visuales atractivas.</p>
+                            </div>
+                            <span class="timeline-tag">ESCOLAR Y PERSONAL</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-mark" aria-hidden="true">✿</span>
+                            <div>
+                                <h3>Trabajo en equipo y presentaciones</h3>
+                                <p>Coordino ideas con mis compañeros y ayudo a sacar adelante trabajos grupales y presentaciones dinámicas.</p>
+                            </div>
+                            <span class="timeline-tag">COLABORACIÓN</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-mark" aria-hidden="true">⌘</span>
+                            <div>
+                                <h3>Aprendizaje por cuenta propia</h3>
+                                <p>Exploro herramientas de diseño digital y edición para seguir desarrollando mis ideas.</p>
+                            </div>
+                            <span class="timeline-tag">EN CONSTANTE APRENDIZAJE</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tab-panel" id="panel-habilidades" role="tabpanel"
+                    aria-labelledby="tab-habilidades" tabindex="0" hidden>
+                    <p class="section-kicker">02 — LO QUE ME INSPIRA</p>
+                    <h2>Habilidades que pongo en práctica</h2>
+                    <p class="section-intro">Combino creatividad, atención al detalle y organización para convertir ideas en proyectos visuales claros.</p>
+                    <ul class="interest-grid">
+                        <li class="interest-card">
+                            <span class="interest-icon" aria-hidden="true">✦</span>
+                            <h3>Diseño e ilustración digital</h3>
+                            <p>Creo conceptos visuales y cuido los detalles, la composición y las paletas de color.</p>
+                        </li>
+                        <li class="interest-card">
+                            <span class="interest-icon" aria-hidden="true">❋</span>
+                            <h3>Creatividad y narrativa</h3>
+                            <p>Transformo ideas, historias y conceptos en propuestas originales y fáciles de entender.</p>
+                        </li>
+                        <li class="interest-card">
+                            <span class="interest-icon" aria-hidden="true">⌘</span>
+                            <h3>Organización y soluciones</h3>
+                            <p>Estructuro proyectos paso a paso y busco soluciones prácticas cuando algo no encaja.</p>
+                        </li>
+                        <li class="interest-card">
+                            <span class="interest-icon" aria-hidden="true">♡</span>
+                            <h3>Equipo y comunicación</h3>
+                            <p>Colaboro, coordino ideas y aporto una visión estética y clara a los trabajos grupales.</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="tab-panel" id="panel-disciplina" role="tabpanel"
+                    aria-labelledby="tab-disciplina" tabindex="0" hidden>
+                    <p class="section-kicker">03 — LO QUE ME GUSTA EXPLORAR</p>
+                    <h2>Disciplinas creativas y digitales</h2>
+                    <p class="section-intro">Me interesa aprender herramientas y técnicas nuevas, desde la edición visual hasta la experimentación con inteligencia artificial.</p>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <span aria-hidden="true">✦</span>
+                            <h3>Diseño gráfico y edición visual</h3>
+                            <p>Composición de material visual y creación de elementos atractivos.</p>
+                        </div>
+                        <div class="value-card">
+                            <span aria-hidden="true">✿</span>
+                            <h3>Gestión de proyectos creativos</h3>
+                            <p>Desde la lluvia de ideas inicial hasta el diseño final y la presentación.</p>
+                        </div>
+                        <div class="value-card">
+                            <span aria-hidden="true">⌘</span>
+                            <h3>Estudio autónomo e IA</h3>
+                            <p>Exploro nuevas herramientas, técnicas digitales y formas de mejorar experimentando también con herramientas de inteligencia artificial.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <p class="footer-message"><span aria-hidden="true">✿</span>Gracias por visitar mi espacio creativo<span aria-hidden="true">✿</span></p>
+            <address class="contact-links">
+                <a href="mailto:castanojeinmy@gmail.com"><span aria-hidden="true">✉</span> castanojeinmy@gmail.com</a>
+                <a href="tel:3216249278"><span aria-hidden="true">☎</span> 321 6249 278</a>
+            </address>
+        </footer>
+    </main>
+
+    <script>
+        const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+        const musicToggle = document.querySelector('.music-toggle');
+        const musicPopover = document.querySelector('.music-popover');
+        const musicPlayer = document.querySelector('.music-player');
+        const musicClose = document.querySelector('.music-close');
+        const backgroundMusic = document.querySelector('.background-music');
+        const backgroundMute = document.querySelector('.background-mute');
+        const sectionSound = document.querySelector('.section-sound');
+        const soundStatus = document.querySelector('#sound-status');
+        const musicStatus = document.querySelector('#music-status');
+        const beatStars = Array.from(document.querySelectorAll('.falling-star'));
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        let beatAudioContext;
+        let beatAnalyser;
+        let backgroundBeatSource;
+        let loveSickBeatSource;
+        let beatData;
+        let previousSpectrum;
+        let averageFlux = 0;
+        let lastBeatAt = 0;
+        let beatAnimationFrame = 0;
+        backgroundMusic.volume = 0.17;
+        sectionSound.volume = 0.18;
+
+        backgroundMute.addEventListener('click', () => {
+            backgroundMusic.muted = !backgroundMusic.muted;
+            const isMuted = backgroundMusic.muted;
+            const label = isMuted ? 'Activar música de fondo' : 'Silenciar música de fondo';
+            backgroundMute.setAttribute('aria-label', label);
+            backgroundMute.setAttribute('aria-pressed', String(isMuted));
+            backgroundMute.title = label;
+            backgroundMute.querySelector('span').textContent = isMuted ? '🔇' : '🔊';
+        });
+
+        function flashBeatStar() {
+            const visibleStars = beatStars.filter((star) => {
+                if (star.classList.contains('beat-flash')) return false;
+                const bounds = star.getBoundingClientRect();
+                return bounds.bottom > 0 && bounds.top < window.innerHeight;
+            });
+            if (visibleStars.length === 0) return;
+
+            const star = visibleStars[Math.floor(Math.random() * visibleStars.length)];
+            star.classList.add('beat-flash');
+            window.setTimeout(() => star.classList.remove('beat-flash'), 900);
+        }
+
+        function monitorMusicBeats() {
+            if (!beatAnalyser || (backgroundMusic.paused && musicPlayer.paused)) {
+                beatAnimationFrame = 0;
+                return;
+            }
+
+            beatAnalyser.getByteFrequencyData(beatData);
+            let flux = 0;
+            let bins = 0;
+
+            for (let index = 1; index < Math.min(90, beatData.length); index += 1) {
+                if (previousSpectrum) {
+                    flux += Math.max(0, beatData[index] - previousSpectrum[index]);
+                    bins += 1;
+                }
+            }
+
+            if (previousSpectrum && bins > 0) {
+                flux /= bins;
+                const now = performance.now();
+                if (flux > Math.max(1.2, averageFlux * 1.25) && now - lastBeatAt > 340) {
+                    flashBeatStar();
+                    lastBeatAt = now;
+                }
+                averageFlux = averageFlux ? averageFlux * 0.95 + flux * 0.05 : flux;
+            }
+
+            previousSpectrum = beatData.slice();
+            beatAnimationFrame = window.requestAnimationFrame(monitorMusicBeats);
+        }
+
+        function startBeatMonitor() {
+            if (!beatAnalyser || (backgroundMusic.paused && musicPlayer.paused) || beatAnimationFrame) return;
+            beatAnimationFrame = window.requestAnimationFrame(monitorMusicBeats);
+        }
+
+        function initializeBeatSync() {
+            if (prefersReducedMotion.matches || !AudioContextClass) return;
+
+            if (!beatAnalyser) {
+                try {
+                    beatAudioContext = new AudioContextClass();
+                    beatAnalyser = beatAudioContext.createAnalyser();
+                    beatAnalyser.fftSize = 1024;
+                    beatAnalyser.smoothingTimeConstant = 0.45;
+                    beatData = new Uint8Array(beatAnalyser.frequencyBinCount);
+                    backgroundBeatSource = beatAudioContext.createMediaElementSource(backgroundMusic);
+                    loveSickBeatSource = beatAudioContext.createMediaElementSource(musicPlayer);
+                    backgroundBeatSource.connect(beatAnalyser);
+                    loveSickBeatSource.connect(beatAnalyser);
+                    beatAnalyser.connect(beatAudioContext.destination);
+                } catch (error) {
+                    musicStatus.textContent = 'No se pudo sincronizar el brillo de las estrellas con la música.';
+                    return;
+                }
+            }
+
+            const resumeContext = beatAudioContext.state === 'suspended'
+                ? beatAudioContext.resume()
+                : Promise.resolve();
+            resumeContext.then(startBeatMonitor).catch(() => {
+                musicStatus.textContent = 'Pulsa o toca la página para sincronizar las estrellas con la música.';
+            });
+        }
+
+        function startBackgroundMusic(force = false) {
+            if (!force && !musicPlayer.paused) return;
+
+            backgroundMusic.play().then(() => {
+                if (!musicPlayer.paused && !musicPlayer.ended) backgroundMusic.pause();
+                musicStatus.textContent = '';
+            }).catch(() => {
+                musicStatus.textContent = 'Pulsa o toca la página para activar la música de fondo.';
+            });
+        }
+
+        function resumeBackgroundMusic() {
+            initializeBeatSync();
+            if (musicPlayer.paused) startBackgroundMusic();
+        }
+
+        backgroundMusic.play().catch(() => {
+            musicStatus.textContent = 'Pulsa o toca la página para activar la música de fondo.';
+        });
+        document.addEventListener('pointerdown', resumeBackgroundMusic);
+        document.addEventListener('keydown', resumeBackgroundMusic);
+        function handleTrackPause() {
+            if (!backgroundMusic.paused || !musicPlayer.paused) {
+                previousSpectrum = undefined;
+                averageFlux = 0;
+                startBeatMonitor();
+                return;
+            }
+            if (beatAnimationFrame) window.cancelAnimationFrame(beatAnimationFrame);
+            beatAnimationFrame = 0;
+            previousSpectrum = undefined;
+            averageFlux = 0;
+        }
+
+        backgroundMusic.addEventListener('playing', initializeBeatSync);
+        musicPlayer.addEventListener('playing', initializeBeatSync);
+        backgroundMusic.addEventListener('pause', handleTrackPause);
+        musicPlayer.addEventListener('pause', handleTrackPause);
+        musicPlayer.addEventListener('play', () => backgroundMusic.pause());
+        musicPlayer.addEventListener('pause', resumeBackgroundMusic);
+        musicPlayer.addEventListener('ended', () => startBackgroundMusic(true));
+
+        function setMusicOpen(isOpen) {
+            musicPopover.hidden = !isOpen;
+            musicToggle.setAttribute('aria-expanded', String(isOpen));
+
+            if (!isOpen) musicPlayer.pause();
+        }
+
+        musicToggle.addEventListener('click', () => {
+            setMusicOpen(musicPopover.hidden);
+        });
+
+        musicClose.addEventListener('click', () => {
+            setMusicOpen(false);
+            musicToggle.focus();
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && !musicPopover.hidden) {
+                setMusicOpen(false);
+                musicToggle.focus();
+            }
+        });
+
+        function selectTab(selectedTab, moveFocus = false) {
+            const currentTab = tabs.find((tab) => tab.getAttribute('aria-selected') === 'true');
+            if (currentTab === selectedTab) {
+                if (moveFocus) selectedTab.focus();
+                return;
+            }
+
+            for (const tab of tabs) {
+                const isSelected = tab === selectedTab;
+                tab.setAttribute('aria-selected', String(isSelected));
+                tab.tabIndex = isSelected ? 0 : -1;
+                document.getElementById(tab.getAttribute('aria-controls')).hidden = !isSelected;
+            }
+
+            if (moveFocus) selectedTab.focus();
+
+            sectionSound.currentTime = 0;
+            sectionSound.play().then(() => {
+                soundStatus.textContent = '';
+            }).catch(() => {
+                soundStatus.textContent = 'No se pudo reproducir el sonido de cambio de sección.';
+            });
+        }
+
+        for (const tab of tabs) {
+            tab.addEventListener('click', () => selectTab(tab));
+            tab.addEventListener('keydown', (event) => {
+                const currentIndex = tabs.indexOf(tab);
+                let nextIndex;
+
+                if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % tabs.length;
+                else if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+                else if (event.key === 'Home') nextIndex = 0;
+                else if (event.key === 'End') nextIndex = tabs.length - 1;
+                else return;
+
+                event.preventDefault();
+                selectTab(tabs[nextIndex], true);
+            });
+        }
+    </script>
+</body>
+</html>
